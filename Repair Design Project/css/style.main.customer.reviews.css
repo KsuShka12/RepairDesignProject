@@ -1,0 +1,131 @@
+.main-customer-reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_customer_reviews_background {
+    position: absolute;
+    z-index: -2;
+    display: flex;
+}
+
+.main_customer_reviews_background1,
+.main_customer_reviews_background2 {
+    max-width: 720px;
+}
+
+.main_customer_reviews_title{
+    padding: 0 0 15px 0;
+}
+
+.main_customer_reviews_decorative_element {
+    padding-bottom: 15px;
+}
+
+.main_customer_reviews_span {
+    max-width: 350px;
+    text-align: center;
+}
+
+.main_customer_reviews_block {
+    display: flex;
+    padding-top: 40px;
+    gap: 70px;
+}
+
+
+.main_customer_reviews_block1,
+.main_customer_reviews_block2,
+.main_customer_reviews_block3 {
+    width: 376px;
+    height: 428px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+}
+
+.main_customer_reviews_block_review1,
+.main_customer_reviews_block_review2,
+.main_customer_reviews_block_review3 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.main_customer_reviews_block_review1_name,
+.main_customer_reviews_block_review3_name {
+    max-width: 178px;
+    max-height: 42px;
+    padding-left: 23px;
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-weight: 400;
+    color: #181818;
+    line-height: 127%;
+}
+
+.main_customer_reviews_block_review2_name {
+    max-width: 200px;
+    max-height: 42px;
+    padding-left: 23px;
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-weight: 400;
+    color: #181818;
+    line-height: 127%;
+}
+
+.main_customer_reviews_block_review1_text,
+.main_customer_reviews_block_review2_text,
+.main_customer_reviews_block_review3_text {
+    padding-top: 20px;
+    color: #959595;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 180%;
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+.main_customer_reviews_block1_decorative,
+.main_customer_reviews_block2_decorative,
+.main_customer_reviews_block3_decorative {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    width: 294px;
+    height: 54px;
+    background-color: #E3B873;
+    margin-top: 50px;
+}
+
+.main_customer_reviews_block1_decorative_span1,
+.main_customer_reviews_block1_decorative_span2 {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    line-height: 139%;
+}
+
+.main_customer_reviews_block2_decorative_span1,
+.main_customer_reviews_block2_decorative_span2 {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    line-height: 139%;
+}
+
+.main_customer_reviews_block3_decorative_span1,
+.main_customer_reviews_block3_decorative_span2 {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    line-height: 139%;
+}

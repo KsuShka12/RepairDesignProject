@@ -1,0 +1,343 @@
+@media (max-width: 375px) {
+    .header {
+        width: 100%
+    }
+
+    .main {
+        max-width: 375px;
+    }
+
+    .header__nav,
+    .header__btn {
+        display: none;
+    }
+
+    h2 {
+        display: none;
+    }
+
+     .article-paragraph {
+        font-size: 14px;
+    }
+
+    .basic-info {
+        margin-left: 80px;
+    }
+
+    .emphasis-city {
+        display: none;
+    }
+
+    .basic_info_media_none {
+        display: block;
+    }
+
+    .basic_info_media_none_emphasis-city {
+        display: block;
+    } 
+
+    .welcome_content_background_image {
+        width: 100%;
+        height: 476px;
+    }
+
+    .basic_info_media_none {
+        font-size: 23px;
+        width: 350px;
+        text-transform: uppercase;
+        line-height: 133%;
+        font-family: Yeseva One;
+    }
+
+    .Rostov-on-Don {
+        color: #E3B873;
+    }
+
+    .btn-emphasis {
+        width: 340px;
+    }
+
+    .btn {
+        width: 340px;
+        margin: 0;
+        margin-top: 26px;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .deskription__companies__block1 {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .completed-projects {
+        display: flex;
+        text-align: center;
+        padding-left: 70px;
+    }
+
+    .description {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .deskription__companies__block1_frame_media {
+        display: block;
+        padding-top: 20px;
+    }
+
+    .deskription__companies__block1_frame_media1 {
+        position: relative;
+    }
+
+    .deskription__companies__block1_frame_media_arow {
+        display: flex;
+        justify-content: space-between;
+        width: 330px;
+        position: absolute;
+        margin-top: -130px;
+        margin-left: 5px;
+    }
+
+    .slider__arrow__dots {
+        display: none;
+    }
+
+    .deskription__companies__block2 {
+        display: none;
+    }
+
+    .video {
+        padding: 10px;
+        background-color: #131313;
+    }
+
+    .play-button {
+        padding: 0;
+        margin-top: 70px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .main_text_sentence {
+        background-color: #131313;
+        margin-top: -1px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-sentence {
+        width: 340px;
+        font-size: 11px;
+        color: #FFFFFF;
+        padding-top: 20px;
+    }
+
+    .main_text_sentence_dekorotive_frame {
+        display: block;
+        width: 55px;
+        padding-top: 28px;
+    }
+
+    .main_data_entry {
+        background-color: #131313;
+        margin-top: -1px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .form-data_entry_button {
+        display: none;
+    }
+
+    .form-data_entry_button_media {
+        display: block;
+    }
+
+    .form-data-entry-input1,
+    .form-data-entry-input2 {
+        width: 340px;
+        color: #FFFFFF;
+        border: none;
+        background: none;
+        border-bottom: 2px solid #5f5f5f4d;
+    }
+
+    .form-data-entry1 {
+        display: flex;
+    }
+
+    .form2 {
+        padding: 10px;
+        justify-content: start;
+
+    }
+
+    .checkbox_agree {
+        color: #FFFFFF;
+    }
+
+    .form-data_entry_button_media {
+        max-width: 340px;
+        max-height: 50px;
+        margin-left: 15px;
+        margin-top: 16px;
+        padding: 10px 50px;
+        border: none;
+        border-radius: 2px;
+        background-color: #E3B873;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        font-size: 13px;
+        text-transform: uppercase;
+        line-height: 204.99999999999997%;
+    }
+
+    .main_product {
+        padding: 0;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .main-product-cards {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 200px;
+    }
+
+    .main-product-cards-article-1,
+    .main-product-cards-article-2,
+    .main-product-cards-article-3 {
+        margin-left: 0;
+        width: 270px;
+        height: 241px;
+    }
+
+    .main-product-cards-button-1,
+    .main-product-cards-button-2,
+    .main-product-cards-button-3 {
+        width: 190px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .main_feedback {
+        display: none;
+    }
+
+    .main-list-of-interior {
+        padding-top: 250px;
+    }
+
+    .main_list_of_interior_span {
+        padding: 0;
+        text-align: center;
+        font-size: 22px;
+        width: 320px;
+        margin-top: -350px;
+        margin-left: 20px;
+    }
+
+    .main_list_of_interior_background_img {
+        width: 340px;
+        height: 242px;
+        filter: brightness(100%);
+        padding-left: 28px;
+        padding-top: 40px;
+    }
+
+    .main_list_of_interior_styles_and_photos {
+        display: none;
+    }
+
+    .main_list_of_interior_photos {
+        display: none;
+    }
+
+    .main_questions_and_answers_form3 {
+        width: 340px;
+    }
+
+    .main-customer-reviews{
+        display: none;
+        width: 100%;
+    }
+
+    .main_questions_and_answers {
+        background: #131313;
+        width: 375px;
+    }
+
+    .main_questions_and_answers_block {
+        width: 375px;
+        background: #131313;
+        padding-left: 5px;
+    }
+
+    .main_questions_and_answers_form {
+        width: 340px;
+        margin: 0;
+        padding: 0;
+        justify-content: start;
+        gap: 10px;
+        padding-left: 20px;
+    }
+
+    .main_questions_and_answers_form_input1,
+    .main_questions_and_answers_form_input2  {
+        width: 300px;
+    }
+
+    .main_questions_and_answers_block_btn {
+        margin-top: 20px;
+        width: 300px;
+    }
+
+    .main-map-location {
+        display: flex;
+        flex-direction: column-reverse;
+        background: #131313;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .main_map_location_background {
+        display: none;
+    }
+
+    .main_questions_and_answers_form_input3 {
+        width: 300px;
+    }
+
+    .main_map_location_text {
+        width: 300px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+
+    .main_map_location_map {
+        width: 300px;
+        padding: 0;
+    }
+}   
